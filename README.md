@@ -29,7 +29,12 @@
 ## Installation
 
 ```bash
+$ git clone https://github.com/AguitInan/aubontroc.git
+$ cd aubontroc
 $ pnpm install
+$ npx prisma migrate dev
+$ npx prisma generate
+$ pnpm run start:dev
 ```
 
 ## Running the app
