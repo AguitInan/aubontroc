@@ -46,6 +46,10 @@ $ npx prisma migrate dev
 
 # Mise en Production
 $ pnpm run start:prod
+
+# Swagger
+Ouvrir l'adresse suivante dans un navigateur Web : http://localhost:3000/api
+
 ```
 
 ## Running the app
