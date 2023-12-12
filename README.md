@@ -41,7 +41,7 @@ $ pnpm install
 # Créer le fichier .env (placer le fichier à la racine)
 DB_URL="postgresql://username:password@localhost:5432/dbname?schema=public"
 
-# Migration Prisma
+# Prisma Migration
 $ npx prisma migrate dev
 
 # Mise en Production
